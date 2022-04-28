@@ -9,9 +9,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var swooshLogo: UIImageView!
+    @IBOutlet weak var BGimg: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+//        swooshLogo.frame = CGRect(x: view.frame.size.width / 2 - swooshLogo.frame.size.width / 2,
+//                                  y: 50,
+//                                  width: swooshLogo.frame.size.width,
+//                                  height: swooshLogo.frame.size.height)
+//
+//        BGimg.frame = view.frame
     }
 
 
