@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WelcomVC.swift
 //  swoosh-app
 //
 //  Created by Vitalii Navrotskyi on 28.04.2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomVC: UIViewController {
 
     @IBOutlet weak var swooshLogo: UIImageView!
     @IBOutlet weak var BGimg: UIImageView!
@@ -22,7 +22,9 @@ class ViewController: UIViewController {
 //
 //        BGimg.frame = view.frame
     }
-
-
+    
+    @IBAction func unwindFromLegueVC(unwindSegue: UIStoryboardSegue) {
+        
+    }
 }
 
