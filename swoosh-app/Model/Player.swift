@@ -8,6 +8,6 @@
 import Foundation
 
 struct Player {
-    var desireLegue: String?
-    var selectedSkillLevel: String?
+    var desireLegue: String!
+    var selectedSkillLevel: String!
 }
